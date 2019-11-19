@@ -2,8 +2,7 @@
 
 Source code and data set for the paper *Neural Cognitive Diagnosis for Intelligent Education Systems*.
 
-The code is the implementation of NeuralCDM model, and the data set is the public data set [ASSIST2009-2010](https://sites.google.com/site/assistmentsdata/home/assistment2009-
-2010-data/skill-builder-data-2009-2010
+The code is the implementation of NeuralCDM model, and the data set is the public data set [ASSIST2009-2010](https://sites.google.com/site/assistmentsdata/home/assistment2009-2010-data/skill-builder-data-2009-2010
 ).
 
 
@@ -20,7 +19,7 @@ The code is the implementation of NeuralCDM model, and the data set is the publi
 
 ## Usage
 
-Run divide_data.py to divide the original data set data/log_data.json into train set, validation set and test set. The data/folder has already contained divided data so this step can be skipped.
+Run divide_data.py to divide the original data set data/log_data.json into train set, validation set and test set. The data/ folder has already contained divided data so this step can be skipped.
 
 `python divide_data.py`
 
@@ -40,7 +39,7 @@ Test the trained the model on the test set:
 
 ## Data Set
 
-The data/log_data.json is extracted from public data set [ASSIST2009-2010](https://sites.google.com/site/assistmentsdata/home/assistment2009-2010-data/skill-builder-data-2009-2010) (corrected version) where `answer_type != 'open_response' and skill_id != ''`. And the logs are organized in the structure:
+The data/log_data.json is extracted from public data set [ASSIST2009-2010](https://sites.google.com/site/assistmentsdata/home/assistment2009-2010-data/skill-builder-data-2009-2010) (skill-builder, corrected version) where `answer_type != 'open_response' and skill_id != ''`. And the logs are organized in the structure:
 
 - log_data.json = [user1, user2, ...]
 - user = {"user_id": user_id, "log_num": log_num, "logs": [log1, log2, ...]]}
