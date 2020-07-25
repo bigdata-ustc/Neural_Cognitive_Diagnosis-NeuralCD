@@ -21,7 +21,7 @@ If this code helps with your studies, please kindly cite the following publicati
 ## Dependencies:
 
 - python 3.6
-- pytorch >= 0.10 (pytorch 0.4 might be OK but pytorch<0.4 is not applicable)
+- pytorch >= 1.0 (pytorch 0.4 might be OK but pytorch<0.4 is not applicable)
 - numpy
 - json
 - sklearn
