@@ -16,6 +16,8 @@ If this code helps with your studies, please kindly cite the following publicati
 }
 ```
 
+For more implementations of other typical cognitive diagnosis models, please refer to our github repository: https://github.com/bigdata-ustc/EduCDM .
+
 
 
 ## Dependencies:
@@ -67,3 +69,12 @@ The user_id, exer_id and knowledge_code correspond to user_id, problem_id and sk
 - Students with less than 15 logs would be deleted in divide_data.py.
 - The model parameters are initialized with Xavier initialization.
 - The model uses Adam Optimizer, and the learning rate is set to 0.002.
+
+
+
+## Correction
+
+There is a mistake in the AAAI conference paper. Eq. (18) should be:
+$$
+DOA(k)=\frac{1}{Z}\sum_{a=1}^N\sum_{b=1}^N\delta(F^s_{ak},F^s_{bk}) \frac{I_{jk} \land J(j,a,b) \land \delta(r_{aj},r_{bj})}{I_{jk} \land J(j,a,b)}
+$$
