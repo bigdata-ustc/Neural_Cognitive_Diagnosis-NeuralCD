@@ -75,6 +75,5 @@ The user_id, exer_id and knowledge_code correspond to user_id, problem_id and sk
 ## Correction
 
 There is a mistake in the AAAI conference paper. Eq. (18) should be:
-$$
-DOA(k)=\frac{1}{Z}\sum_{a=1}^N\sum_{b=1}^N\delta(F^s_{ak},F^s_{bk}) \frac{I_{jk} \land J(j,a,b) \land \delta(r_{aj},r_{bj})}{I_{jk} \land J(j,a,b)}
-$$
+
+![](equation.JPG)
