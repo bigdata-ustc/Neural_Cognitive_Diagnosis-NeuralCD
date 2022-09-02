@@ -5,7 +5,7 @@ import sys
 from sklearn.metrics import roc_auc_score
 from data_loader import ValTestDataLoader
 from model import Net
-
+import Reza
 
 # can be changed according to config.txt
 exer_n = 17746
