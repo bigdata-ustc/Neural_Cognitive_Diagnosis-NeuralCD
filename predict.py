@@ -2,7 +2,6 @@ import torch
 import numpy as np
 import json
 import sys
-import marjan
 from sklearn.metrics import roc_auc_score
 from data_loader import ValTestDataLoader
 from model import Net
