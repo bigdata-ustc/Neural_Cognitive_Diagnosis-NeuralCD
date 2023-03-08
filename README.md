@@ -1,8 +1,8 @@
 # Neural Cognitive Diagnosis for Intelligent Education Systems
 
-Source code and data set for the paper *Neural Cognitive Diagnosis for Intelligent Education Systems*.
+Source code and data set for the paper [Neural Cognitive Diagnosis for Intelligent Education Systems](http://staff.ustc.edu.cn/~qiliuql/files/Publications/Fei-Wang-AAAI2020.pdf) and [NeuralCD: A General Cogntive Diagnosis Framework](https://ieeexplore.ieee.org/abstract/document/9865139).
 
-The code is the implementation of NeuralCDM model, and the data set is the public data set [ASSIST2009-2010](https://sites.google.com/site/assistmentsdata/home/assistment2009-2010-data/skill-builder-data-2009-2010
+The code in this repository is the implementation of NeuralCDM model, and the data set is the public data set [ASSIST2009-2010](https://sites.google.com/site/assistmentsdata/home/assistment2009-2010-data/skill-builder-data-2009-2010
 ).
 
 If this code helps with your studies, please kindly cite the following publication:
@@ -16,7 +16,21 @@ If this code helps with your studies, please kindly cite the following publicati
 }
 ```
 
-For more implementations of other typical cognitive diagnosis models, please refer to our github repository: https://github.com/bigdata-ustc/EduCDM .
+or
+
+```
+@article{wang2022neuralcd,
+  title={NeuralCD: A General Framework for Cognitive Diagnosis},
+  author={Wang, Fei and Liu, Qi and Chen, Enhong and Huang, Zhenya and Yin, Yu and Wang, Shijin and Su, Yu},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2022},
+  publisher={IEEE}
+}
+```
+
+For the implementation of NeuralCDM+, please refer to  https://github.com/LegionKing/NeuralCDM_plus .
+
+For the implementation of KaNCD (in "NeuralCD: A General Cogntive Diagnosis Framework") and other typical cognitive diagnosis models, please refer to our github repository: https://github.com/bigdata-ustc/EduCDM .
 
 
 
